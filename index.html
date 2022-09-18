@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--* style *-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--* icon *-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row form-container">
+          <div class="col left-side">
+            <img src="./images/Mobile login-bro.svg" alt="" />
+          </div>
+          <div class="col right-side">
+            <!--* login form  -->
+            <div class="login-form">
+              <div class="profile">
+                <img src="./images/profile_pic.svg" alt="" />
+                <h3>Log In</h3>
+              </div>
+              <form autocomplete="off">
+                <div class="input-box">
+                  <i class="bx bx-user"></i>
+                  <input type="text" id="username" required />
+                  <label for="username">Username</label>
+                </div>
+                <div class="input-box">
+                  <i class="bx bx-key"></i>
+                  <input type="password" id="password" required />
+                  <label for="password">PassWord</label>
+                </div>
+                <div class="helper">
+                  <div>
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox">Remember Me</label>
+                  </div>
+                  <button class="text-btn">Recovery PassWord</button>
+                </div>
+              </form>
+              <button class="contained-btn">LOG IN</button>
+              <div class="social-media">
+                <h3>Sign in With</h3>
+                <div>
+                  <i class="bx bxl-google"></i>
+                  <i class="bx bxl-facebook"></i>
+                  <i class="bx bxl-twitter"></i>
+                </div>
+              </div>
+              <div class="form-footer">
+                <div>
+                  <p>Dont have account yet ?</p>
+                <button class="simple-btn signUp-btn">Sign Up</button>
+                </div>
+              </div>
+            </div>
+            <!--* sign up form  -->
+            <div class="signup-form hide">
+              <div class="profile">
+                <img src="./images/profile_pic.svg" alt="" />
+                <h3>Sign Up</h3>
+              </div>
+              <form autocomplete="off">
+                <div class="input-box">
+                  <i class="bx bx-user"></i>
+                  <input type="text" id="username-s" required />
+                  <label for="username-s">Username</label>
+                </div>
+                <div class="input-box">
+                  <i class='bx bx-envelope'></i>
+                  <input type="text" id="email-s" required />
+                  <label for="email-s">Email</label>
+                </div>
+                <div class="input-box">
+                  <i class="bx bx-key"></i>
+                  <input type="password" id="password-s" required />
+                  <label for="password-s">PassWord</label>
+                </div>
+                <div class="helper">
+                  <div>
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox">Remember Me</label>
+                  </div>
+                  <button class="text-btn">Recovery PassWord</button>
+                </div>
+              </form>
+              <button class="contained-btn">SIGN UP</button>
+              <div class="social-media">
+                <h3>Sign Up With</h3>
+                <div>
+                  <i class="bx bxl-google"></i>
+                  <i class="bx bxl-facebook"></i>
+                  <i class="bx bxl-twitter"></i>
+                </div>
+              </div>
+              <div class="form-footer">
+                <div>
+                  <p>Already a memeber ?</p>
+                <button class="simple-btn logIn-btn">Log In</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!--* js *-->
+  <script src="./main.js"></script>
+</html>
